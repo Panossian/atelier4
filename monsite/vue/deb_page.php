@@ -17,6 +17,7 @@
                 <li><a href="index.php?p=tuto">Tuto</a></li>
                 <li><a href="index.php?p=equipe">Équipe</a></li>
                 <li><a href="index.php?p=contacts">Contacts</a></li>
+                <li><a href="index.php?p=apropos">A propos</a></li>
             </ul>
         </nav>
     </header>  
