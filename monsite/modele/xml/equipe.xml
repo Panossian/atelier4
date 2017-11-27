@@ -26,9 +26,9 @@
 			<Role>Développer</Role>
 			<Specialites>HTML, CSS, XML, JavaScript...</Specialites>
 			<Salaire>Pas encore de salaire</Salaire>
-			<Leitmotiv>Les images</Leitmotiv>
+			<Leitmotiv>Fly like a butterfly and sting like a bee.</Leitmotiv>
 			<DateEmbauche>Pas encore d'embauche</DateEmbauche>
-			<Signe-distinctif>La gazelle</Signe-distinctif>
+			<Signe-distinctif>Optimisme</Signe-distinctif>
 		</tuple>
 	</table>
 </relation>
