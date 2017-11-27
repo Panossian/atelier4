@@ -17,7 +17,7 @@
 		<p>Liste des droits présents en base :<br /><br /></p>
 		<table>
 			<tr>
-				<th>id</th>
+				<th>Id</th>
 				<th>Nom</th>
 				<th>Permission</th>
 				<th></th>

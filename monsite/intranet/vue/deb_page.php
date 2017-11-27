@@ -3,7 +3,7 @@
 <head>
     <title>MonSite</title> <!-- Changer le titre -->
     <meta charset="utf-8">
-
+   
     <link rel="icon" href="vue/images/favicon.ico" /> <!-- Choisir une icône -->
     <link rel="stylesheet" type="text/css" media="screen" href="vue/css/style.css"> <!-- Mettre en forme avec un ou plusieurs CSS -->
     <!-- Ajouter vos styles et scripts JS (Bootstrap est accepté) -->
@@ -29,7 +29,7 @@
                     echo $_SESSION['login'];
                 ?>
                 </span></p>
-                <button type="submit">Se déconnecter</button>
+                <button type="submit" class="deconnexion">Se déconnecter</button>
             </fieldset>  
         </form>
 	</div>   

@@ -22,15 +22,4 @@
 
 		return $rslt;
 	}
-
-	function getDroitById($db, $id)
-	{
-		$q = $db->prepare('DELETE id,nom,permission FROM droit WHERE id = :id');
-		$q->execute(array('id' => $id));
-
-		$droit = $q->fetch();
-		
-		return $droit;
-	}
-
 ?>

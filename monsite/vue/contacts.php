@@ -1,14 +1,14 @@
 <section> <!-- Compléter/supprimer et mettre en forme tout ce qui sera souhaité ! -->
-    <p>Contactez - <span>nous</span> ! nous vous répondrons dès que faire se peut ;)</p>
+    <p class="centrer">Contactez - <span>nous</span> ! nous vous répondrons dès que faire se peut ;)</p>
               
-	<div>
+	<div class="centrer">
 		<form method="post" action="index.php?p=contacts">
 		<fieldset>
-			<input type="text" name="nom" placeholder="Nom" required>
-			<input type="email"  name="email" placeholder="Email">
-			<input type="tel"  name="telephone" placeholder="Téléphone">
-			<textarea  name="message" placeholder="Message" required></textarea>
-			<button type="submit">Envoyer</button><br />
+			<input type="text" name="nom" placeholder="Nom" required><br />
+			<input type="email"  name="email" placeholder="Email"><br />
+			<input type="tel"  name="telephone" placeholder="Téléphone"><br />
+			<textarea  name="message" placeholder="Message" required></textarea><br />
+			<button type="submit" class="envoyer">Envoyer</button><br />
 			<?php
 				require 'controleur/envoyerContact.php';
 			?>

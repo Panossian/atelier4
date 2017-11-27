@@ -1,0 +1,126 @@
+/* Propriétés générales */
+html, body {
+	width:100%; 
+	padding:0; 
+	margin:0;
+}
+
+body { 	 
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" ;
+	font-size: 20px ;
+	text-align : justify ;
+	background: #D3D3D3;
+	color: black;
+
+}
+
+header{
+	background-image:url(banner_intranet.jpg);
+	background-repeat: repeat;
+	background-size: contain;
+	height: fit-content;
+	color: white;
+	padding-left: 10%;
+	padding-top: 10%;
+	font-size: 15px;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+a {
+	color: rgb(9, 3, 90);
+	text-decoration: none;
+}
+
+a:hover{
+	color: #C0C0C0;
+}
+
+a:focus{
+	color: #696969;
+}
+
+header ul {
+	text-align: left;
+	margin-bottom: 12%;
+}
+
+li {
+	list-style-type: none;
+}
+
+footer {
+	text-align: center;
+	background-image:url(banner_intranet.jpg);
+	color: white;
+}
+
+footer p {
+	padding: 10px 0 10px 0;
+}
+
+h2 {
+	text-align: center;
+	color: #696688;
+}
+
+ul {
+	text-align: center;
+	margin-bottom: 5%;
+}
+table
+{
+	width: 100%;
+}
+
+td
+{
+	border: 1px solid #696688;
+	text-align: center;
+	border-radius: 8px;
+}
+
+th{
+	text-align: center;
+	color: rgb(9, 3, 90);
+}
+
+.authentification fieldset{
+	width: auto;
+	border: 2px solid #696688;
+	text-align: center;
+	float: right;
+}
+
+.authentification p{
+	float: left;
+}
+.deconnexion{
+	border: 2px solid white;
+	padding:6px 2px 6px 2px;
+	border-radius:8px;
+	background:#696688;
+	font:bold 13px Arial;
+	color: #ffffff;
+	float: right;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.deconnexion:hover{
+	background: rgba(184, 208, 236, 0.849);
+	border: 2px solid #778899;
+	color: #696688;
+
+}
+
+section {
+	clear: both;
+}
+
+div {
+	margin: 2%;
+}

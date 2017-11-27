@@ -1,6 +1,6 @@
 
 <section>
-	<div>
+	<div class="centrer">
 		<h2>Équipe</h2>
 		<br />
 		<p> L'équipe est compos&eacute; de
@@ -27,11 +27,11 @@
 				document.write(" !<br />");
 			</script>
 		</p>
-		
+		<p>
 		Si vous souhaitez obtenir des renseignements suppl&eacute;mentaire sur l'un d'entre eux, veuillez saisir son pr&eacute;nom ci-dessous :<br/></p>
 		<form method="post" action="index.php?p=equipe">
 			<input type="text" name="prenom" placeholder="Prénom" required>  
-			<button type="submit">Envoyer</button><br />  
+			<button type="submit" class="envoyer">Envoyer</button><br />  
 		</form>
 
 		<br />  
