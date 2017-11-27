@@ -15,9 +15,9 @@
             <h2 >Blabla:</h2>
             <p> <br />                
                 <ul >
-                    <li>Nec sane haec sola pernicies orientem diversis cladibus adfligebat.<br /><br /></li>
-                    <li>Namque et Isauri, quibus est usitatum saepe pacari saepeque inopinis excursibus cuncta miscere,<br /><br /></li>
-                    <li>ex latrociniis occultis et raris, alente inpunitate <br /><br /></li>
+                    <li>Des tutoriels informatiques à la portée de tous.<br /><br /></li>
+                    <li>Des tutoriels au top !<br /><br /></li>
+                    <li>Rejoignez notre communauté !<br /><br /></li>
                 </ul>
                 </p>
         </div>
