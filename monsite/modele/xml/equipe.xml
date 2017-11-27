@@ -10,5 +10,24 @@
 			<DateEmbauche>16ème siècle (ish)</DateEmbauche>
 			<Signe-distinctif>Amer</Signe-distinctif>
 		</tuple>
+		<tuple>
+			<Nom>Frileux</Nom>
+			<Prenom>Noémie</Prenom>
+			<Role>Développer</Role>
+			<Specialites>HTML, CSS, XML, JavaScript...</Specialites>
+			<Salaire>Pas encore de salaire</Salaire>
+			<Leitmotiv>Rien ne sert de courir, il faut partir à point !</Leitmotiv>
+			<DateEmbauche>Pas encore d'embauche</DateEmbauche>
+			<Signe-distinctif>Perseverance</Signe-distinctif>
+		</tuple>
+		<tuple>
+			<Nom>Panossian</Nom>
+			<Prenom>Eugénie</Prenom>
+			<Role>Développer</Role>
+			<Specialites>HTML, CSS, XML, JavaScript...</Specialites>
+			<Salaire>Pas encore de salaire</Salaire>
+			<Leitmotiv></Leitmotiv>
+			<DateEmbauche>Pas encore d'embauche</DateEmbauche>
+			<Signe-distinctif></Signe-distinctif>
 	</table>
 </relation>
