@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>MonSite</title> <!-- Changer le titre -->
+    <title>Secure&Moi</title> <!-- Changer le titre -->
     <meta charset="utf-8">
    
     <link rel="icon" href="vue/images/favicon.ico" /> <!-- Choisir une icône -->
