@@ -2,20 +2,19 @@
 	<br />
 	<h2 >Gestion des utilisateurs de l'intranet:</h2>
 	<?php
-		require_once 'modele/sql/droitManager.php';
-		require_once 'modele/sql/userManager.php';
-		require_once 'controleur/connexionBDD.php';
+		require 'modele/sql/droitManager.php';
+		require 'modele/sql/userManager.php';
+		require 'controleur/connexionBDD.php';
 			
-		
+		$users = getListUser($db);
 		//$boutonrouge = SupprimerUtilisateurParId($db, $id);
 	
 		if(isset($_POST["delete"]))
 		{
+			var_dump($_POST);
 			extract($_POST);
-			supprimerUser($db, $userId);
+			SupprimerUtilisateurParId($db, $id);
 		}
-	
-		$users = getListUser($db);
 	?>
 
 	<div>

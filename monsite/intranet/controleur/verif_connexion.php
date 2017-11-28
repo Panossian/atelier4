@@ -1,5 +1,5 @@
 <?php
-	require 'modele/sql/userManager.php';
+	require_once 'modele/sql/userManager.php';
 
 	if(isset($_POST['pwd']))
 	{

@@ -22,4 +22,15 @@
 
 		return $rslt;
 	}
+
+function supprimerUser($db, $id)
+	{
+		$q = $db->prepare('DELETE FROM user WHERE id = :id');
+		$q->execute(array('id' => $id));
+	
+		$rslt = $q->fetch();
+
+		return $rslt;
+	}
+	
 ?>
