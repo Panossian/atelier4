@@ -7,6 +7,7 @@
 		require 'controleur/connexionBDD.php';
 			
 		$users = getListUser($db);
+		$boutonrouge = SupprimerUtilisateurParId($db, $id);
 	?>
 
 	<div>
@@ -44,7 +45,7 @@
 					<td><?php echo $user['sexe']; ?><br /></td>
 					<td>
 						<a href="#"><img src="vue/images/modifier.png" alt="Bouton modifier" title="Modifier"/></a>
-						<a href="#"><img src="vue/images/supprimer.png" alt="Bouton supprimer" title="Supprimer"/></a>
+						<a href="#"><img id="$boutonrouge" src="vue/images/supprimer.png" alt="Bouton supprimer" title="Supprimer"/></a>
 					</td>
 				</tr>
 				
