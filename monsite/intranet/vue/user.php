@@ -3,6 +3,7 @@
 	<h2 >Gestion des utilisateurs de l'intranet:</h2>
 	<?php
 		require 'modele/sql/droitManager.php';
+		require 'modele/sql/userManager.php';
 		require 'controleur/connexionBDD.php';
 			
 		$users = getListUser($db);
@@ -46,9 +47,7 @@
 						<a href="#"><img src="vue/images/supprimer.png" alt="Bouton supprimer" title="Supprimer"/></a>
 					</td>
 				</tr>
-				<?php 
-					} 
-				?>
+				
 		</table>
 		<a href="#"><img src="vue/images/ajouter.png" alt="Bouton ajouter" title="Ajouter"/><p>Ajouter</p></a>
 	</div>
